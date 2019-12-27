@@ -39,9 +39,22 @@ console.log(firstName + ' ' + lastName);
 //Math operators
 var year, yearDenys, yearKris;
 now = 2019;
-yearDenys = now - 34;
-yearKris = now - 33;
+ageDenys = 34;
+ageKris = 33;
+
+yearDenys = now - ageDenys;
+yearKris = now - ageKris;
 
 console.log(now + 2);
 console.log(now * 2);
 console.log(now / 10);
+
+//Logical operators
+var denysOlder = ageKris < ageDenys;
+console.log(denysOlder);
+
+//typeof operator
+console.log(typeof denysOlder);
+console.log(typeof ageDenys);
+var x;
+console.log(typeof x); 
