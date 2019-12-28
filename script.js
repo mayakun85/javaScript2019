@@ -62,7 +62,7 @@ var x;
 console.log(typeof x); 
 */
 
-//Operator precedence
+/*Operator precedence
 var now = 2019;
 var yearDenys = 1985;
 var fullAge  = 21;
@@ -89,5 +89,24 @@ x += 10;
 console.log(x);
 x--;
 console.log(x);
+*/
+
+var heightMark = 190;
+var massMark = 90;
+
+var heightJohn = 187;
+var massJohn = 85;
+
+var BMIMark = massMark / (heightMark * heightMark);
+var BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
+
+
+var markHigherBMI = BMIMark > BMIJohn;
+console.log('Is Mark\'s BMI higher than Johns\'s? ' + markHigherBMI);
+
+
+
+
 
 
