@@ -36,7 +36,7 @@ var lastName = prompt('What is his last Name?');
 console.log(firstName + ' ' + lastName);
 */
 
-//Math operators
+/*Math operators
 var year, yearDenys, yearKris;
 now = 2019;
 ageDenys = 34;
@@ -48,13 +48,24 @@ yearKris = now - ageKris;
 console.log(now + 2);
 console.log(now * 2);
 console.log(now / 10);
+*/
 
-//Logical operators
+/*Logical operators
 var denysOlder = ageKris < ageDenys;
 console.log(denysOlder);
+*/
 
-//typeof operator
+/*typeof operator
 console.log(typeof denysOlder);
 console.log(typeof ageDenys);
 var x;
 console.log(typeof x); 
+*/
+
+//Operator precedence
+var now = 2019;
+var yearDenys = 1985;
+var fullAge  = 21;
+
+var isfullAge = now  - yearDenys >= fullAge;
+console.log(isfullAge); 
