@@ -63,7 +63,7 @@ console.log(typeof x);
 */
 
 //Operator precedence
-var now = 2019;
+var now = 1985;
 var yearDenys = 1985;
 var fullAge  = 21;
 
