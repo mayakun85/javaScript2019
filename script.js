@@ -63,9 +63,10 @@ console.log(typeof x);
 */
 
 //Operator precedence
-var now = 1985;
+var now = 2019;
 var yearDenys = 1985;
 var fullAge  = 21;
 
 var isfullAge = now  - yearDenys >= fullAge;
-console.log(isfullAge); 
+console.log(isfullAge);
+
