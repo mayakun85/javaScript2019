@@ -67,6 +67,27 @@ var now = 2019;
 var yearDenys = 1985;
 var fullAge  = 21;
 
+//Multiple operators
 var isfullAge = now  - yearDenys >= fullAge;
 console.log(isfullAge);
+
+//Grouping
+var ageDenys = now - yearDenys;
+var ageKris = 33;
+var average = (ageDenys + ageKris) / 2;
+console.log(average);
+
+//Multiple assignments 
+var x, y;
+x = y = (3 + 5) * 4 - 6;
+console.log(x, y);
+
+//More operators
+x *= 2;
+console.log(x);
+x += 10;
+console.log(x);
+x--;
+console.log(x);
+
 
