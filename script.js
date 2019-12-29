@@ -94,18 +94,24 @@ console.log(x);
 var heightMark = 190;
 var massMark = 90;
 
-var heightJohn = 187;
+var heightJohn = 185;
 var massJohn = 85;
 
 var BMIMark = massMark / (heightMark * heightMark);
 var BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log(BMIMark, BMIJohn);
 
+if (BMIMark > BMIJohn){
+    console.log('Mark\'s BMI is higher than John\'s');
+} else {
+    console.log('John\'s BMI is higher than Mark\'s');
+}
 
-var markHigherBMI = BMIMark > BMIJohn;
-console.log('Is Mark\'s BMI higher than Johns\'s? ' + markHigherBMI);
-*/
 
+//var markHigherBMI = BMIMark > BMIJohn;
+//console.log('Is Mark\'s BMI higher than Johns\'s? ' + markHigherBMI);
+
+/*
 var firstName = 'Denys';
 var civilStatus = 'single';
 
@@ -114,8 +120,28 @@ if (civilStatus === 'single') {
 } else {
     console.log(firstName + ' will hopefully marry soon :)))');
 }
+*/
+ /*
+do {
+    var name = prompt("Who are you?");
+  } while (!name);
+  console.log(name);
+*/
 
-
-
-
+switch (prompt("Как погодка?")) {
+    case "дождь":
+      console.log("Не забудь зонт.");
+      break;
+    case "снег":
+      console.log("Блин, мы в России!");
+      break;
+    case "солнечно":
+      console.log("Оденься полегче.");
+    case "облачно":
+      console.log("Иди гуляй.");
+      break;
+    default:
+      console.log("Непонятная погода!");
+      break;
+  }
 
