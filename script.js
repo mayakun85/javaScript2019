@@ -90,7 +90,7 @@ console.log(x);
 x--;
 console.log(x);
 */
-
+/* MY RESOLVED CODE
 var heightMark = 190;
 var massMark = 90;
 
@@ -104,7 +104,16 @@ console.log(BMIMark, BMIJohn);
 
 var markHigherBMI = BMIMark > BMIJohn;
 console.log('Is Mark\'s BMI higher than Johns\'s? ' + markHigherBMI);
+*/
 
+var firstName = 'Denys';
+var civilStatus = 'single';
+
+if (civilStatus === 'single') {
+    console.log(firstName + ' is married');
+} else {
+    console.log(firstName + ' will hopefully marry soon :)))');
+}
 
 
 
